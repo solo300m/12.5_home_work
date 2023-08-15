@@ -46,7 +46,9 @@ void sortArray(double *arr, double *sort, int size)
 int main()
 {
 
-    long sizeArr = 6;
+    long sizeArr = 0;
+    cout << "Ввести размер массива: ";
+    cin >> sizeArr;
     double arrStart[sizeArr];
     double copyArrStart[sizeArr];
     double sortArr[sizeArr];
